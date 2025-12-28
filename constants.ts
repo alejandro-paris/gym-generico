@@ -1,5 +1,13 @@
 import { Dumbbell, Clock, Users, Zap, HeartPulse, Trophy } from "lucide-react";
 import { NavItem, Feature, ClassSession, PricingPlan, Trainer } from "./types";
+import trainer1 from './src/assets/images/trainer1.jpg';
+import trainer2 from './src/assets/images/trainer2.jpg';
+import trainer3 from './src/assets/images/trainer3.jpg';
+import yogaClass from './src/assets/images/yoga.jpg';
+import crossfitClass from './src/assets/images/crossfit.jpg';
+import spinningClass from './src/assets/images/spinning.jpg';
+import boxingClass from './src/assets/images/boxing.jpg'; 
+
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "Inicio", href: "#home" },
@@ -38,7 +46,7 @@ export const CLASSES: ClassSession[] = [
     name: "Power Yoga",
     time: "07:00 AM",
     instructor: "Elena R.",
-    image: "https://picsum.photos/600/400?random=10",
+    image: yogaClass,
     intensity: "Media"
   },
   {
@@ -46,7 +54,7 @@ export const CLASSES: ClassSession[] = [
     name: "CrossFit WOD",
     time: "18:00 PM",
     instructor: "Marcos T.",
-    image: "https://picsum.photos/600/400?random=11",
+    image: crossfitClass,
     intensity: "Alta"
   },
   {
@@ -54,7 +62,7 @@ export const CLASSES: ClassSession[] = [
     name: "Spinning Pro",
     time: "19:30 PM",
     instructor: "Sarah J.",
-    image: "https://picsum.photos/600/400?random=12",
+    image: spinningClass,
     intensity: "Alta"
   },
   {
@@ -62,7 +70,7 @@ export const CLASSES: ClassSession[] = [
     name: "Boxeo Técnico",
     time: "20:00 PM",
     instructor: "David L.",
-    image: "https://picsum.photos/600/400?random=13",
+    image: boxingClass,
     intensity: "Alta"
   }
 ];
@@ -107,16 +115,16 @@ export const TRAINERS: Trainer[] = [
   {
     name: "Alex Johnson",
     role: "Head Coach & CrossFit",
-    image: "https://picsum.photos/400/500?random=20"
+    image: trainer1
   },
   {
     name: "Maria González",
     role: "Yoga & Movilidad",
-    image: "https://picsum.photos/400/500?random=21"
+    image: trainer2
   },
   {
     name: "Carlos Nuñez",
     role: "Musculación & Hipertrofia",
-    image: "https://picsum.photos/400/500?random=22"
+    image: trainer3
   }
 ];
